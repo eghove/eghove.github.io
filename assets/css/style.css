@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*Styling the body default */
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/gravel.png");
+}
+
+
+/*Styling the header */
+header {
+    width: 100%;
+    background-color:#ffffff;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 75px;
+    border-bottom: solid 1px #cccccc;
+}
+
+/*Styling the nav bar, overlays the header */
+nav {
+    width: 960px;
+    height: 75px;
+    border-bottom: solid 1px #cccccc;
+    margin: 0 auto 0 auto;
+}
+
+/*Styling my name on all pages */
+.MyNameBig {
+    width: 230px;
+    height: 75px;
+    float: left;
+    background-color:#4aaaa5; 
+    color: white;
+    text-align: center;
+    margin: 0 430px 0 0;
+    padding-top: 20px;
+}
+
+/*Making the Navigation Links float left, might not even need this */
+.NavLinks {
+    float: left;
+}
+
+/* This appears to be vestigal from an earlier commit */
+#AboutMe {
+    padding-right: 20px;
+    border-right: solid 1px #cccccc;
+}
+
+#Portfolio {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: solid 1px #cccccc;
+}
+
+#Contact {
+    padding-left: 20px;
+}
+
+/* Styles the wrapper box */
+div.wrapper {
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    margin:  110px auto 100px auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+/*Styles links */
+a {
+    text-decoration: none; /*Removes the underlining of links */
+    color: inherit;
+}
+
+/*Styling a pseudo-class */
+a:hover{
+    color: #4aaaa5;
+}
+
+/*Styles header 1 */
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+/*Styles the big text in the wrapper box */
+.ContentHeader {
+    color: #4aaaa5;
+    border-bottom: solid 2px #cccccc;
+    padding-bottom: 35px;
+    padding-left: 25px;
+}
+
+/*Set defalt styling for section */
+section {
+    padding-top: 30px;
+    padding-left: 25px;
+
+}
+
+/* Styles the picture of me on index.html */
+#PictureMe {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+/*Sets defaul styles for paragraphs */
+p {
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+/*Set the styling for the image gallery on portfolio.htm */
+/*For the gallery boxes */
+div.gallery {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    width: 277px;
+    height: 202px;
+    border: 1px solid #cccccc;
+}
+
+/*For the labels on the gallery boxes */
+div.description {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 275px;
+    height: 65px;
+    padding-top: 25px;
+}
+
+
+/*Styling the name and email form boxes on contact.html */
+input[type=text], input[type=email]  {
+    width: 85%;
+    color: #777777;
+}
+
+/*Styling the message form box on contact.html.
+Not sure why I ended up having to set the font-family for textarea separately */
+textarea {
+    width:85%;
+    height: 130px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Styling the submit button on contact.html */
+input[type=button] {
+    background-color: #4aaaa5;
+    color: white;
+    width: 75px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+
+/*Styling the footer */
+footer {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    background-color: #666666;
+    min-height: 75px;
+    max-height: 75px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: #4aaaa5 solid 10px;
+    margin-top: 75px;
+    
+}
+
+/*Styling the copyright information that rests in the footer */
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    color: white;
+}
