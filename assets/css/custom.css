@@ -12,7 +12,7 @@ body {
 
 #customHeader {
     background-color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 /*Remove the padding around the nav bar */
 .custom-nav {
@@ -27,7 +27,7 @@ body {
 /*Styling Eric Hove big */
 #myNameBig {
     color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     text-align: center;
     margin: 0 0 0 0;
@@ -40,14 +40,15 @@ body {
  }
 
  a {
-     color: white;
+     text-decoration: none;
+     color: inherit;
  }
 
  /*Styles the big text in the wrapper box */
 .contentHeader {
     color: #4aaaa5;
     border-bottom: solid 2px #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-top: 20px;
     margin-bottom: 20px;
 }
