@@ -1,0 +1,68 @@
+/*Styling the body */
+body {
+    background-image: url("background.jpg");
+}
+
+/*Styling the title box */
+#titleBox {
+    background-color: #71eeb8;
+    height: 75px;
+}
+
+/*Styling the title text */
+#titleText {
+    color: white;
+}
+
+/*Styling the box with the rules */
+#ruleBox {
+    background-color: #71eeb8;
+}
+
+/*Styling the text explaining the rules */
+.ruleText {
+    color: green;
+}
+
+/*Styling the applies to both boxes */
+.scoreBox {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/*Styling the goal box */
+#goalScoreBox{
+    background-color: #13a064;
+}
+
+/*Styling the goal score number */
+.goalScore {
+    color: white;
+}
+
+/*Styles the winLossBox */
+#winLossBox {
+    background-color: #13a064;
+}
+
+/*Styles the win/loos text */
+.winLossText{
+    color: white;
+}
+
+/*Styles that apply to all crystal buttons */
+.crystalButtons {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/*Styles both boxes at the bottom of the page */
+.userBox {
+    background-color: #e73782;
+    color: white;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}

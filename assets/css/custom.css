@@ -39,6 +39,9 @@ body {
     color: #777777;
  }
 
+ a {
+     color: white;
+ }
 
  /*Styles the big text in the wrapper box */
 .contentHeader {
