@@ -3,49 +3,89 @@
 <head>
     <meta charset="utf-8" />
     <title>Eric Hove: Contact</title>
-    <!--Need to link the reset css at some point in the future. Will require me to restyle everything-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" >     
+    <!--Linking to reset css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!--Linking to Twitter Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+    <!--Linking to additional custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
 </head>
+
+
+
 <body>
-    <!--This is the navigation bar-->
-    <header>
-        <nav>
-            <h1 class= "MyNameBig">Eric Hove</h1>
-            <h4 class= "NavLinks" id="AboutMe"><a href="index.html">About Me</a></h4>
-            <h4 class="NavLinks" id="Portfolio"><a href="portfolio.html">Portfolio</a></h4>
-            <h4 class="NavLinks" id="Contact"><a href="contact.html">Contact</a></h4>
+    <!--Navigation Bar at the top of the page-->
+    <nav class="navbar custom-nav navbar-expand-lg navbar-dark container-fluid" id="customHeader">
+            <a class="navbar-brand col-md-3" id="myNameBig"><h3>Eric Hove</h3></a>
+
+                <!--Blank space between logo and links-->
+                <div class="col-md-5"></div>
+                <!--The Links. I pulled "collapse" out-->
+                <div class="navbar-collapse col-md" id="navbarNav"> 
+                    <ul class="navbar-nav custom-links">
+                        <li class="nav-item active">
+                        <a class="nav-link" id="custom-link-color-1" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="custom-link-color-2" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="custom-link-color-3" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
-    </header>
+    <br />
 
-    <!--For the content section of the Contact page-->
-    <!--NEED TO FIGURE OUT HOW TO CODE THIS FORM-->
-    <div class="wrapper">
-        <h1 class="ContentHeader">Contact</h1>
-        <section>
-            <form id="fullname">
-                <h4>Name</h4>
-                <input type="text" placeholder="Name" name="fullname">
-            </form>
-            <form id="emailaddress">
-                <h4>Email</h4>
-                <input type="email" placeholder="Email address" name="emailaddress">
-            </form>
-            
-            <form id="message">
-                <h4>Message</h4>
-                <textarea name="message" placeholder="Message"></textarea><br>
-            </form>
+    <section class="container">
+            <div class="row">
+                <div class="col-md-8 custom-container-1">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <h3 class="col-md-12 contentHeader">Contact</h3>
+                        </div>
+                        <div class="row justify-content-start">
+                            <form class="col-md-12" id="fullname">
+                                <h4>Name</h4>
+                                <input type="text" placeholder="Name" name="fullname">
+                            </form>
+                        </div><br />
+                        <div class="row justify-content-start">
+                            <form class="col-md-12" id="emailaddress">
+                                <h4>Email</h4>
+                                <input type="email" placeholder="Email address" name="emailaddress">
+                            </form>
+                        </div><br />
+                        <div class="row justify-content-start">
+                            <form class="col-md-12" id="message">
+                                <h4>Message</h4>
+                                <textarea name="message" placeholder="Message"></textarea><br>
+                            </form>
+                        </div>
+                        <div class="row justify-content-start">
+                            <form class="col-md-12">
+                                <input type="button" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-            <form>
-                <input type="button" value="Submit">
-            </form>
-        </section>
-    </div>
 
-    <!--The footer-->
-    <footer>
-        <div id="copyright">Copyright &copy; Eric Hove</div>
+   <!--The Footer-->
+    <footer class="container-fluid" id="stickyFooter">
+        <div class="row">
+                      <div id="customCopyright">Copyright &copy; Eric Hove</div>
+        </div>
     </footer>
-    
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       
+
+
 </body>
+
 </html>
