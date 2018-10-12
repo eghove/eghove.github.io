@@ -35,13 +35,9 @@ function setGoalScore() {
 //function the sets the value of the buttons
 function setButtons() {
     button1=getRandomInt(1,13);
-    //console.log("Button 1:" + button1); //for debugging purposes
     button2=getRandomInt(1,13);
-    //console.log("Button 2:" + button2); //for debugging purposes
     button3=getRandomInt(1,13);
-    //console.log("Button 3:" + button3); //for debugging purposes
     button4=getRandomInt(1,13);
-    //console.log("Button 4:" + button4); //for debugging purposes
 }
 
 //prints the user Score to the screen
@@ -82,36 +78,28 @@ initializeGame();
 //the onclick listeners for the bottons
 //for button1
 $( '#button1').on("click", function(){
-    //alert("You clicked Button1 "+ button1); //for debugging
     userScore+=button1;
-    //console.log(userScore); //for debugging
     printUserScore();
     checkifWon();
 })
 
 //for button2
 $( '#button2').on("click", function(){
-    //alert("You clicked Button2 "+ button2); //for debugging
     userScore+=button2;
-    //console.log(userScore); //for debugging
     printUserScore();
     checkifWon();
 })
 
 //for button3
 $( '#button3').on("click", function(){
-    //alert("You clicked Button3 "+ button3); //for debugging
     userScore+=button3;
-    //console.log(userScore); //for debugging
     printUserScore();
     checkifWon();
 })
 
 //for button4
 $( '#button4').on("click", function(){
-    //alert("You clicked Button4 "+ button4); //for debugging
     userScore+=button4;
-    //console.log(userScore); //for debugging
     printUserScore();
     checkifWon();
 })
