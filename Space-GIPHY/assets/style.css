@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+/*spacing around the top row buttons */
+.giphyButton {
+    margin: 3px;
+}
+
+/* For the panels */
+#panels {
+    margin-top: 30px;
+    color: white;
+}
+
+img {
+    cursor: pointer;
+}
+
+.gifImage {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    border: 1px black solid;
+    padding: 4px;
+    background-color: slategrey;
+    border-radius: 4px;
+}
